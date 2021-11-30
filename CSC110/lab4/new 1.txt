@@ -1,0 +1,13 @@
+public class lab4{
+	public static void str(){
+		String s1 = ('hey hi");
+		int i = 80/ s1.length();
+			for ( int a = = 1; a <= i; a++){
+				System.out.println(s1);
+			}
+	}
+	public static void main(String[]args){
+		str();
+	}
+	
+}

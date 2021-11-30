@@ -1,0 +1,10 @@
+^H:\CSC305\A3_2\BUILD\_DEPS\TINYOBJLOADER-SUBBUILD\CMAKEFILES\26D0952DCB964D616C82ED9B9D2C04F8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a3_2/build/_deps/tinyobjloader-subbuild -BH:/CSC305/a3_2/build/_deps/tinyobjloader-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/CSC305/a3_2/build/_deps/tinyobjloader-subbuild/tinyobjloader-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

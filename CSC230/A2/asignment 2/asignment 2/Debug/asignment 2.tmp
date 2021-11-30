@@ -1,0 +1,45 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>H:\CSC230\A2\asignment 2\asignment 2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>H:\CSC230\A2\asignment 2\asignment 2\Debug\asignment 2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>asignment 2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>asignment 2.map</FILE>
+  <FILE>asignment 2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <COUNT_LED><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>222</LINE></COUNT_LED>
+  <DIRECTION><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>223</LINE></DIRECTION>
+  <ARRAY><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>70</LINE></ARRAY>
+  <start><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>50</LINE></start>
+  <clear_leds><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>118</LINE></clear_leds>
+  <conversion><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>91</LINE></conversion>
+  <SET1><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>62</LINE></SET1>
+  <negate><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>108</LINE></negate>
+  <SET2><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>66</LINE></SET2>
+  <delay><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>183</LINE></delay>
+  <ARR><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>221</LINE></ARR>
+  <set_led42><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>132</LINE></set_led42>
+  <set_led44><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>139</LINE></set_led44>
+  <set_led46><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>147</LINE></set_led46>
+  <set_led48><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>154</LINE></set_led48>
+  <set_led50><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>163</LINE></set_led50>
+  <set_led52><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>175</LINE></set_led52>
+  <JUMPBACK><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>105</LINE></JUMPBACK>
+  <delay_loop><FILE>H:\CSC230\A2\asignment 2\asignment 2\main.asm</FILE><LINE>195</LINE></delay_loop>
+ </LABELS>
+</ASSEMBLER_INFO>

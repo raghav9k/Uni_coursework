@@ -1,0 +1,3 @@
+﻿  Building Custom Rule H:/CSC305/labs/build/_deps/tinyobjloader-src/CMakeLists.txt
+  tiny_obj_loader.cc
+  tinyobjloader.vcxproj -> H:\CSC305\labs\build\_deps\tinyobjloader-build\Debug\tinyobjloader.lib

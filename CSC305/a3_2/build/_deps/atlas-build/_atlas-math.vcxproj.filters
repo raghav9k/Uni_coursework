@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\CSC305\a3_2\build\_deps\atlas-src\include\atlas\math\Math.hpp">
+      <Filter>include\atlas\math</Filter>
+    </None>
+    <None Include="H:\CSC305\a3_2\build\_deps\atlas-src\include\atlas\math\Coordinates.hpp">
+      <Filter>include\atlas\math</Filter>
+    </None>
+    <None Include="H:\CSC305\a3_2\build\_deps\atlas-src\include\atlas\math\Ray.hpp">
+      <Filter>include\atlas\math</Filter>
+    </None>
+    <None Include="H:\CSC305\a3_2\build\_deps\atlas-src\include\atlas\math\Random.hpp">
+      <Filter>include\atlas\math</Filter>
+    </None>
+    <None Include="H:\CSC305\a3_2\build\_deps\atlas-src\include\atlas\math\Solvers.hpp">
+      <Filter>include\atlas\math</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{3EDA308F-1634-3279-8E89-D289F499A518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\atlas">
+      <UniqueIdentifier>{77D69C8E-D9C4-3872-9187-FA7FECFAC818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\atlas\math">
+      <UniqueIdentifier>{D430D91C-14CD-3C17-ACA1-F72CDD599922}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

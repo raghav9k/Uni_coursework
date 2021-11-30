@@ -1,0 +1,10 @@
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\123CE896532BF9C2AC1C1AEFCF6B2F75\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a1/build/_deps/magic_enum-subbuild -BH:/CSC305/a1/build/_deps/magic_enum-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

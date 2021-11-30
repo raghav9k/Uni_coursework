@@ -1,0 +1,3 @@
+H:/CSC305/a3_2/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate.dir
+H:/CSC305/a3_2/build/_deps/catch2-subbuild/CMakeFiles/ALL_BUILD.dir
+H:/CSC305/a3_2/build/_deps/catch2-subbuild/CMakeFiles/ZERO_CHECK.dir

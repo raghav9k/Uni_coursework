@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/atlas-populate"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/05ffc87a422d6ad0a4a4583f5c999f88/atlas-populate.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/4501f3c8edc3b4e183c69755b9558e93/atlas-populate-complete.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/7dfe85e7b5ab09755240e039c027283a/atlas-populate-install.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/7dfe85e7b5ab09755240e039c027283a/atlas-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/7dfe85e7b5ab09755240e039c027283a/atlas-populate-download.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/7dfe85e7b5ab09755240e039c027283a/atlas-populate-update.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/7dfe85e7b5ab09755240e039c027283a/atlas-populate-patch.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/7dfe85e7b5ab09755240e039c027283a/atlas-populate-configure.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/7dfe85e7b5ab09755240e039c027283a/atlas-populate-build.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/atlas-subbuild/CMakeFiles/7dfe85e7b5ab09755240e039c027283a/atlas-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"atlas-populate"
+		],
+		"name" : "atlas-populate"
+	}
+}

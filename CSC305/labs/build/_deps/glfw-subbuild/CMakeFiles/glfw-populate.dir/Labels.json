@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/3ffd6251878aaf037beaccc16159235d/glfw-populate.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/72a625d849020f2210de273183b8a71b/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/2837d26450173e5947596ec10104d1cb/glfw-populate-install.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/2837d26450173e5947596ec10104d1cb/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/2837d26450173e5947596ec10104d1cb/glfw-populate-download.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/2837d26450173e5947596ec10104d1cb/glfw-populate-update.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/2837d26450173e5947596ec10104d1cb/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/2837d26450173e5947596ec10104d1cb/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/2837d26450173e5947596ec10104d1cb/glfw-populate-build.rule"
+		},
+		{
+			"file" : "H:/CSC305/labs/build/_deps/glfw-subbuild/CMakeFiles/2837d26450173e5947596ec10104d1cb/glfw-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

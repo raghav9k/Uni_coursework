@@ -1,0 +1,10 @@
+^H:\CSC305\A3_2\BUILD\_DEPS\ATLAS-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a3_2/build/_deps/atlas-subbuild -BH:/CSC305/a3_2/build/_deps/atlas-subbuild --check-stamp-file H:/CSC305/a3_2/build/_deps/atlas-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\fa6a59e3b3d7963517df2415bc021e24\tinyobjloader-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\fa6a59e3b3d7963517df2415bc021e24\tinyobjloader-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\fa6a59e3b3d7963517df2415bc021e24\tinyobjloader-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\fa6a59e3b3d7963517df2415bc021e24\tinyobjloader-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\fa6a59e3b3d7963517df2415bc021e24\tinyobjloader-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\fa6a59e3b3d7963517df2415bc021e24\tinyobjloader-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\fa6a59e3b3d7963517df2415bc021e24\tinyobjloader-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\fa6a59e3b3d7963517df2415bc021e24\tinyobjloader-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\3f3c420743ad4cc2dccab5e06628775e\tinyobjloader-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\26d0952dcb964d616c82ed9b9d2c04f8\tinyobjloader-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\CSC305\a3_2\build\_deps\tinyobjloader-subbuild\CMakeFiles\tinyobjloader-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B9718FC2-646B-3C7E-809B-B28FE49CB116}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+repository='https://github.com/Neargye/magic_enum'
+module=''
+tag='origin'

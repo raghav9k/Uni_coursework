@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/cc87f05f6ff8166927012adf3bc6d6cf/catch2-populate.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/dedabdfcf159da1773e2f430f2fc68b5/catch2-populate-complete.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/c6f5d7ca67e8826d69bc95c51eb51801/catch2-populate-install.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/c6f5d7ca67e8826d69bc95c51eb51801/catch2-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/c6f5d7ca67e8826d69bc95c51eb51801/catch2-populate-download.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/c6f5d7ca67e8826d69bc95c51eb51801/catch2-populate-update.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/c6f5d7ca67e8826d69bc95c51eb51801/catch2-populate-patch.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/c6f5d7ca67e8826d69bc95c51eb51801/catch2-populate-configure.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/c6f5d7ca67e8826d69bc95c51eb51801/catch2-populate-build.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/catch2-subbuild/CMakeFiles/c6f5d7ca67e8826d69bc95c51eb51801/catch2-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2-populate"
+		],
+		"name" : "catch2-populate"
+	}
+}

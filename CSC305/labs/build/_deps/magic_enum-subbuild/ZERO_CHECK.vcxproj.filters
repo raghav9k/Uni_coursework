@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\74ada7e3763070eabb5c10fef2ee4e24\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{469E20D9-5870-38DB-B1E8-33F2ADF64A41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿  Building Custom Rule H:/CSC305/a2/build/_deps/atlas-src/CMakeLists.txt
+  test_main.cpp
+  atlas_core_platform.cpp
+  atlas_core_float.cpp
+  atlas_core_functional.cpp
+  atlas_core_timer.cpp
+  atlas_math_coordinates.cpp
+  atlas_math_ray.cpp
+  atlas_math_random.cpp
+  atlas_math_solvers.cpp
+  atlas_glx_glsl.cpp
+  atlas_glx_context.cpp
+  atlas_gui_gui.cpp
+  atlas_hlr_loadlibrary.cpp
+  atlas-test.vcxproj -> H:\CSC305\a2\build\_deps\atlas-build\Release\atlas-test.exe

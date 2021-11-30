@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\CSC305\a3_2\build\_deps\atlas-src\source\atlas\hlr\LoadLibrary.cpp">
+      <Filter>source\atlas\hlr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\CSC305\a3_2\build\_deps\atlas-src\include\atlas\hlr\LoadLibrary.hpp">
+      <Filter>include\atlas\hlr</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3_2\build\_deps\atlas-src\include\atlas\hlr\Export.hpp">
+      <Filter>include\atlas\hlr</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3_2\build\_deps\atlas-src\include\atlas\hlr\cr.h">
+      <Filter>include\atlas\hlr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{3EDA308F-1634-3279-8E89-D289F499A518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\atlas">
+      <UniqueIdentifier>{77D69C8E-D9C4-3872-9187-FA7FECFAC818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\atlas\hlr">
+      <UniqueIdentifier>{434688F3-26C3-3638-B114-8839DD5F2472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{B397CD1F-D121-37E1-859E-9B5AA14835E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\atlas">
+      <UniqueIdentifier>{302D34A3-CCFB-3E28-8AE1-3D440E9C0B6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\atlas\hlr">
+      <UniqueIdentifier>{8DBE6269-F408-33DF-B1A0-EDD8C9EB6D5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

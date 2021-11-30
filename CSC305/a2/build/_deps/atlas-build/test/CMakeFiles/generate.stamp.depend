@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+H:/CSC305/a2/build/_deps/atlas-src/cmake/CreateDataHeader.cmake
+H:/CSC305/a2/build/_deps/atlas-src/test/CMakeLists.txt
+H:/CSC305/a2/build/_deps/atlas-src/test/TestDataPaths.hpp.in
+H:/CSC305/a2/build/_deps/atlas-src/test/TestExpectedPaths.hpp.in

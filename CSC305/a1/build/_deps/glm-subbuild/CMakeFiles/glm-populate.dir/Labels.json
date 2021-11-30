@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/d81cf6fd279e9b3a990b5817b38be4e3/glm-populate.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/95f1f6b68db6ca3799623350e90d365b/glm-populate-complete.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/616179ed413eb0aae369bfe249b23295/glm-populate-install.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/616179ed413eb0aae369bfe249b23295/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/616179ed413eb0aae369bfe249b23295/glm-populate-download.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/616179ed413eb0aae369bfe249b23295/glm-populate-update.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/616179ed413eb0aae369bfe249b23295/glm-populate-patch.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/616179ed413eb0aae369bfe249b23295/glm-populate-configure.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/616179ed413eb0aae369bfe249b23295/glm-populate-build.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/glm-subbuild/CMakeFiles/616179ed413eb0aae369bfe249b23295/glm-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

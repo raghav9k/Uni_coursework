@@ -1,0 +1,162 @@
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\28E73FE22127B6F5878172E517F4AC3E\MAGIC_ENUM-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a1/build/_deps/magic_enum-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a1/build/_deps/magic_enum-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/Debug/magic_enum-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\28E73FE22127B6F5878172E517F4AC3E\MAGIC_ENUM-POPULATE-DOWNLOAD.RULE
+setlocal
+cd H:\CSC305\a1\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/tmp/magic_enum-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/Debug/magic_enum-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\28E73FE22127B6F5878172E517F4AC3E\MAGIC_ENUM-POPULATE-UPDATE.RULE
+setlocal
+cd H:\CSC305\a1\build\_deps\magic_enum-src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/tmp/magic_enum-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\28E73FE22127B6F5878172E517F4AC3E\MAGIC_ENUM-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/Debug/magic_enum-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\28E73FE22127B6F5878172E517F4AC3E\MAGIC_ENUM-POPULATE-CONFIGURE.RULE
+setlocal
+cd H:\CSC305\a1\build\_deps\magic_enum-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/Debug/magic_enum-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\28E73FE22127B6F5878172E517F4AC3E\MAGIC_ENUM-POPULATE-BUILD.RULE
+setlocal
+cd H:\CSC305\a1\build\_deps\magic_enum-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/Debug/magic_enum-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\28E73FE22127B6F5878172E517F4AC3E\MAGIC_ENUM-POPULATE-INSTALL.RULE
+setlocal
+cd H:\CSC305\a1\build\_deps\magic_enum-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/Debug/magic_enum-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\28E73FE22127B6F5878172E517F4AC3E\MAGIC_ENUM-POPULATE-TEST.RULE
+setlocal
+cd H:\CSC305\a1\build\_deps\magic_enum-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/Debug/magic_enum-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\EDA763F58C235A5465888BB3EC4095A8\MAGIC_ENUM-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a1/build/_deps/magic_enum-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a1/build/_deps/magic_enum-subbuild/CMakeFiles/Debug/magic_enum-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a1/build/_deps/magic_enum-subbuild/magic_enum-populate-prefix/src/magic_enum-populate-stamp/Debug/magic_enum-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKEFILES\123CE896532BF9C2AC1C1AEFCF6B2F75\MAGIC_ENUM-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A1\BUILD\_DEPS\MAGIC_ENUM-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a1/build/_deps/magic_enum-subbuild -BH:/CSC305/a1/build/_deps/magic_enum-subbuild --check-stamp-file H:/CSC305/a1/build/_deps/magic_enum-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

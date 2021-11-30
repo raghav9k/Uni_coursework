@@ -1,0 +1,5 @@
+﻿  Building Custom Rule H:/CSC305/a1/build/_deps/atlas-src/CMakeLists.txt
+  tinyobjloader.cpp
+  LoadObjFile.cpp
+  Cameras.cpp
+  atlas-utils.vcxproj -> H:\CSC305\a1\build\_deps\atlas-build\Debug\atlas-utils.lib

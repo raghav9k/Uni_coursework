@@ -1,0 +1,7 @@
+numElements		numTests		linearSearch	binarySearch
+
+100			10			73		5			
+1000			100			651		8
+10000			1000			6650		11
+100000			1000
+			68033		15

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule H:/CSC305/a2/build/_deps/glfw-src/examples/CMakeLists.txt
+  boing.c
+  glad_gl.c
+  Generating Code...
+  boing.vcxproj -> H:\CSC305\a2\build\_deps\glfw-build\examples\Release\boing.exe

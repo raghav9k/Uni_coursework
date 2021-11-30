@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/magic_enum-populate"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/2a484ad760c0be318b1f607019b3a7e7/magic_enum-populate.rule"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/fc62ed79324ebb2d797799bbf9ab8f83/magic_enum-populate-complete.rule"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/3283718d958c8363285aa144b92ff2eb/magic_enum-populate-install.rule"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/3283718d958c8363285aa144b92ff2eb/magic_enum-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/3283718d958c8363285aa144b92ff2eb/magic_enum-populate-download.rule"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/3283718d958c8363285aa144b92ff2eb/magic_enum-populate-update.rule"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/3283718d958c8363285aa144b92ff2eb/magic_enum-populate-patch.rule"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/3283718d958c8363285aa144b92ff2eb/magic_enum-populate-configure.rule"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/3283718d958c8363285aa144b92ff2eb/magic_enum-populate-build.rule"
+		},
+		{
+			"file" : "H:/CSC305/a2/build/_deps/magic_enum-subbuild/CMakeFiles/3283718d958c8363285aa144b92ff2eb/magic_enum-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"magic_enum-populate"
+		],
+		"name" : "magic_enum-populate"
+	}
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\CSC305\a2\build\_deps\atlas-src\examples\hello_triangle\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\atlas-src\examples\hello_triangle\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{D1211BF9-C5C9-3902-808D-56CCDACFAD2A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imgui.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imgui_draw.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imgui_demo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imgui_widgets.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imconfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imgui.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imgui_internal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imstb_rectpack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imstb_textedit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\imstb_truetype.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-src\external\imgui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{3EDA308F-1634-3279-8E89-D289F499A518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{B397CD1F-D121-37E1-859E-9B5AA14835E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

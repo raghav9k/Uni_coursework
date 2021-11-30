@@ -1,0 +1,32 @@
+^H:\CSC305\A3_2\BUILD\CMAKEFILES\9C22B3C922B5801A0FE2E557C1E8DAC5\GL3W.C.RULE
+setlocal
+cd H:\CSC305\a3_2\build\_deps\gl3w-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Python37-32\python.exe" H:/CSC305/a3_2/build/_deps/gl3w-src/gl3w_gen.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3_2\BUILD\CMAKEFILES\2555EB6A2A21B7869F48BECA856A01DD\GL3W_GEN.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3_2\BUILD\_DEPS\GL3W-SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a3_2 -BH:/CSC305/a3_2/build --check-stamp-file H:/CSC305/a3_2/build/_deps/gl3w-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,162 @@
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\290F519EB26AF2C08C3E11539DDB0B17\GL3W-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a3/build/_deps/gl3w-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a3/build/_deps/gl3w-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp/Debug/gl3w-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\290F519EB26AF2C08C3E11539DDB0B17\GL3W-POPULATE-DOWNLOAD.RULE
+setlocal
+cd H:\CSC305\a3\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/tmp/gl3w-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp/Debug/gl3w-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\290F519EB26AF2C08C3E11539DDB0B17\GL3W-POPULATE-UPDATE.RULE
+setlocal
+cd H:\CSC305\a3\build\_deps\gl3w-src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/tmp/gl3w-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\290F519EB26AF2C08C3E11539DDB0B17\GL3W-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp/Debug/gl3w-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\290F519EB26AF2C08C3E11539DDB0B17\GL3W-POPULATE-CONFIGURE.RULE
+setlocal
+cd H:\CSC305\a3\build\_deps\gl3w-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp/Debug/gl3w-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\290F519EB26AF2C08C3E11539DDB0B17\GL3W-POPULATE-BUILD.RULE
+setlocal
+cd H:\CSC305\a3\build\_deps\gl3w-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp/Debug/gl3w-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\290F519EB26AF2C08C3E11539DDB0B17\GL3W-POPULATE-INSTALL.RULE
+setlocal
+cd H:\CSC305\a3\build\_deps\gl3w-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp/Debug/gl3w-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\290F519EB26AF2C08C3E11539DDB0B17\GL3W-POPULATE-TEST.RULE
+setlocal
+cd H:\CSC305\a3\build\_deps\gl3w-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp/Debug/gl3w-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\CBEDA443DBEF23C0A14B0770830B5041\GL3W-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/CSC305/a3/build/_deps/gl3w-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a3/build/_deps/gl3w-subbuild/CMakeFiles/Debug/gl3w-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch H:/CSC305/a3/build/_deps/gl3w-subbuild/gl3w-populate-prefix/src/gl3w-populate-stamp/Debug/gl3w-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\CD31E0D24CF99E38D53F80DE27E8135D\GL3W-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\CSC305\A3\BUILD\_DEPS\GL3W-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a3/build/_deps/gl3w-subbuild -BH:/CSC305/a3/build/_deps/gl3w-subbuild --check-stamp-file H:/CSC305/a3/build/_deps/gl3w-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

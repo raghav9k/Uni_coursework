@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\290f519eb26af2c08c3e11539ddb0b17\gl3w-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\290f519eb26af2c08c3e11539ddb0b17\gl3w-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\290f519eb26af2c08c3e11539ddb0b17\gl3w-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\290f519eb26af2c08c3e11539ddb0b17\gl3w-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\290f519eb26af2c08c3e11539ddb0b17\gl3w-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\290f519eb26af2c08c3e11539ddb0b17\gl3w-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\290f519eb26af2c08c3e11539ddb0b17\gl3w-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\290f519eb26af2c08c3e11539ddb0b17\gl3w-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\cbeda443dbef23c0a14b0770830b5041\gl3w-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\cd31e0d24cf99e38d53f80de27e8135d\gl3w-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\CSC305\a3\build\_deps\gl3w-subbuild\CMakeFiles\gl3w-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7E39A8A4-76EC-3A11-822E-1560F21FD0E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a1\build\_deps\tinyobjloader-subbuild\CMakeFiles\49ed449727d955e0235fe82590d41afa\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AEFBA5CC-225E-328D-BFEC-0BC67C7272C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

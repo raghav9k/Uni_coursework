@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imgui.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imgui_draw.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imgui_demo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imgui_widgets.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imconfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imgui.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imgui_internal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imstb_rectpack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imstb_textedit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\imstb_truetype.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a3\build\_deps\atlas-src\external\imgui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{FAB31B43-B13D-3075-BD66-7522DB2D7D51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{909D20E2-81BE-35BE-9ABA-4AF66B3BDDE1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

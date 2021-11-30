@@ -1,0 +1,10 @@
+^H:\CSC305\A1\BUILD\_DEPS\ATLAS-SUBBUILD\CMAKEFILES\128BB9D65BB22DE9C68ACBE04F560389\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a1/build/_deps/atlas-subbuild -BH:/CSC305/a1/build/_deps/atlas-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/CSC305/a1/build/_deps/atlas-subbuild/atlas-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

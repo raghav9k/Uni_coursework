@@ -1,0 +1,10 @@
+^H:\CSC305\A3\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\5DC94BD0A2441DE73BD41E001E85B7CD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a3/build/_deps/glm-subbuild -BH:/CSC305/a3/build/_deps/glm-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/CSC305/a3/build/_deps/glm-subbuild/glm-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

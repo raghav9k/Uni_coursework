@@ -1,0 +1,6 @@
+﻿  main.cpp
+H:\CSC305\a2\main.cpp(236,12): warning C4458:  declaration of 'n' hides class member
+H:\CSC305\a2\assignment.hpp(182,22): message :  see declaration of 'Triangle::n'
+H:\CSC305\a2\main.cpp(241,18): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+H:\CSC305\a2\main.cpp(364,8): warning C4189:  'avg': local variable is initialized but not referenced
+  a2.vcxproj -> H:\CSC305\a2\build\Debug\a2.exe

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule H:/CSC305/a3_2/build/_deps/fmt-src/CMakeLists.txt
+  format.cc
+  posix.cc
+  Generating Code...
+  fmt.vcxproj -> H:\CSC305\a3_2\build\_deps\fmt-build\Release\fmt.lib

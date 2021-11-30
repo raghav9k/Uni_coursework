@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a1\build\_deps\atlas-subbuild\CMakeFiles\128bb9d65bb22de9c68acbe04f560389\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1FABA197-EA62-3049-AFD8-9D998C943EC8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

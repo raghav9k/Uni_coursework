@@ -1,0 +1,10 @@
+^H:\CSC305\LABS\BUILD\_DEPS\GL3W-SUBBUILD\CMAKEFILES\2F62D82056F6A0D13415010421698799\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/labs/build/_deps/gl3w-subbuild -BH:/CSC305/labs/build/_deps/gl3w-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/CSC305/labs/build/_deps/gl3w-subbuild/gl3w-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

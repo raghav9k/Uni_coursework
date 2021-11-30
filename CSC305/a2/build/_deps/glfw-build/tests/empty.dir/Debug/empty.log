@@ -1,0 +1,6 @@
+﻿  Building Custom Rule H:/CSC305/a2/build/_deps/glfw-src/tests/CMakeLists.txt
+  empty.c
+  tinycthread.c
+  glad_gl.c
+  Generating Code...
+  empty.vcxproj -> H:\CSC305\a2\build\_deps\glfw-build\tests\Debug\empty.exe

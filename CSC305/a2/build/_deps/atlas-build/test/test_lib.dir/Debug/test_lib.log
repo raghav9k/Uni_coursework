@@ -1,0 +1,5 @@
+﻿  Building Custom Rule H:/CSC305/a2/build/_deps/atlas-src/test/CMakeLists.txt
+  test_lib.cpp
+  Auto build dll exports
+     Creating library H:/CSC305/a2/build/_deps/atlas-build/test/Debug/test_lib.lib and object H:/CSC305/a2/build/_deps/atlas-build/test/Debug/test_lib.exp
+  test_lib.vcxproj -> H:\CSC305\a2\build\_deps\atlas-build\test\Debug\test_lib.dll

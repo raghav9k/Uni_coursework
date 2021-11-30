@@ -1,0 +1,10 @@
+^H:\CSC305\A3_2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\EF24CD6CF31A98A3CC3B32A955C6357F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a3_2/build/_deps/fmt-subbuild -BH:/CSC305/a3_2/build/_deps/fmt-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/CSC305/a3_2/build/_deps/fmt-subbuild/fmt-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

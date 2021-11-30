@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\52b0e0a09b9b88c7e5dfebc416520f82\atlas-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\52b0e0a09b9b88c7e5dfebc416520f82\atlas-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\52b0e0a09b9b88c7e5dfebc416520f82\atlas-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\52b0e0a09b9b88c7e5dfebc416520f82\atlas-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\52b0e0a09b9b88c7e5dfebc416520f82\atlas-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\52b0e0a09b9b88c7e5dfebc416520f82\atlas-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\52b0e0a09b9b88c7e5dfebc416520f82\atlas-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\52b0e0a09b9b88c7e5dfebc416520f82\atlas-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\656b60238023e2c98aa8dc13df4f931d\atlas-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\ee769f06f1e24e2e610cfa33418f2d12\atlas-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\CSC305\a3_2\build\_deps\atlas-subbuild\CMakeFiles\atlas-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1B8CC1A3-4004-3D3C-BA43-2DA6C937EC86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

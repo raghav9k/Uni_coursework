@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\CSC305\a2\build\_deps\atlas-src\source\atlas\utils\tinyobjloader.cpp">
+      <Filter>source\atlas\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CSC305\a2\build\_deps\atlas-src\source\atlas\utils\LoadObjFile.cpp">
+      <Filter>source\atlas\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CSC305\a2\build\_deps\atlas-src\source\atlas\utils\Cameras.cpp">
+      <Filter>source\atlas\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\CSC305\a2\build\_deps\atlas-src\include\atlas\utils\LoadObjFile.hpp">
+      <Filter>include\atlas\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CSC305\a2\build\_deps\atlas-src\include\atlas\utils\Cameras.hpp">
+      <Filter>include\atlas\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\atlas-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{CCA7D00A-1937-3C17-9509-298F550070DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\atlas">
+      <UniqueIdentifier>{946FFD9F-3748-3125-9D67-3C3934976DD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\atlas\utils">
+      <UniqueIdentifier>{2E2AC886-B307-359A-ACDA-4D31E1BDD10A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{D1211BF9-C5C9-3902-808D-56CCDACFAD2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\atlas">
+      <UniqueIdentifier>{709019B0-34D8-3DB0-9D48-6852BD883511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\atlas\utils">
+      <UniqueIdentifier>{C311A548-830A-3054-8448-566D87365478}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

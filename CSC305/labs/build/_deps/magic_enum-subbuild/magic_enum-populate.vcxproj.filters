@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\fd5e1a8fafe8b016b0f72d5f82148bce\magic_enum-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\fd5e1a8fafe8b016b0f72d5f82148bce\magic_enum-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\fd5e1a8fafe8b016b0f72d5f82148bce\magic_enum-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\fd5e1a8fafe8b016b0f72d5f82148bce\magic_enum-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\fd5e1a8fafe8b016b0f72d5f82148bce\magic_enum-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\fd5e1a8fafe8b016b0f72d5f82148bce\magic_enum-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\fd5e1a8fafe8b016b0f72d5f82148bce\magic_enum-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\fd5e1a8fafe8b016b0f72d5f82148bce\magic_enum-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\8659a3e44c766930a8066424a414d01b\magic_enum-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\74ada7e3763070eabb5c10fef2ee4e24\magic_enum-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\CSC305\labs\build\_deps\magic_enum-subbuild\CMakeFiles\magic_enum-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{469E20D9-5870-38DB-B1E8-33F2ADF64A41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{94518DB1-3433-31C9-A224-8D727E3B5EEC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>lab03_camera</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\CSC305\labs\build\labs\lab03_camera\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lab03_camera.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lab03_camera</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\CSC305\labs\build\labs\lab03_camera\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lab03_camera.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lab03_camera</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\CSC305\labs\build\labs\lab03_camera\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lab03_camera.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lab03_camera</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\CSC305\labs\build\labs\lab03_camera\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lab03_camera.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lab03_camera</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;FMT_LOCALE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;FMT_LOCALE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\atlas-build\Debug\atlas.lib;..\..\_deps\atlas-build\Debug\atlas-gui.lib;..\..\_deps\atlas-build\Debug\atlas-glx.lib;..\..\_deps\glfw-build\src\Debug\glfw3.lib;..\..\_deps\gl3w-build\Debug\gl3w.lib;opengl32.lib;..\..\_deps\atlas-build\external\imgui\Debug\imgui.lib;..\..\_deps\atlas-build\Debug\atlas-hlr.lib;..\..\_deps\atlas-build\Debug\atlas-utils.lib;..\..\_deps\fmt-build\Debug\fmtd.lib;..\..\_deps\tinyobjloader-build\Debug\tinyobjloader.lib;..\..\_deps\atlas-build\external\stb\Debug\stb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/CSC305/labs/build/labs/lab03_camera/Debug/lab03_camera.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/CSC305/labs/build/labs/lab03_camera/Debug/lab03_camera.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;FMT_LOCALE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;FMT_LOCALE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\atlas-build\Release\atlas.lib;..\..\_deps\atlas-build\Release\atlas-gui.lib;..\..\_deps\atlas-build\Release\atlas-glx.lib;..\..\_deps\glfw-build\src\Release\glfw3.lib;..\..\_deps\gl3w-build\Release\gl3w.lib;opengl32.lib;..\..\_deps\atlas-build\external\imgui\Release\imgui.lib;..\..\_deps\atlas-build\Release\atlas-hlr.lib;..\..\_deps\atlas-build\Release\atlas-utils.lib;..\..\_deps\fmt-build\Release\fmt.lib;..\..\_deps\tinyobjloader-build\Release\tinyobjloader.lib;..\..\_deps\atlas-build\external\stb\Release\stb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/CSC305/labs/build/labs/lab03_camera/Release/lab03_camera.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/CSC305/labs/build/labs/lab03_camera/Release/lab03_camera.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;FMT_LOCALE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;FMT_LOCALE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\atlas-build\MinSizeRel\atlas.lib;..\..\_deps\atlas-build\MinSizeRel\atlas-gui.lib;..\..\_deps\atlas-build\MinSizeRel\atlas-glx.lib;..\..\_deps\glfw-build\src\MinSizeRel\glfw3.lib;..\..\_deps\gl3w-build\MinSizeRel\gl3w.lib;opengl32.lib;..\..\_deps\atlas-build\external\imgui\MinSizeRel\imgui.lib;..\..\_deps\atlas-build\MinSizeRel\atlas-hlr.lib;..\..\_deps\atlas-build\MinSizeRel\atlas-utils.lib;..\..\_deps\fmt-build\MinSizeRel\fmt.lib;..\..\_deps\tinyobjloader-build\MinSizeRel\tinyobjloader.lib;..\..\_deps\atlas-build\external\stb\MinSizeRel\stb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/CSC305/labs/build/labs/lab03_camera/MinSizeRel/lab03_camera.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/CSC305/labs/build/labs/lab03_camera/MinSizeRel/lab03_camera.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;FMT_LOCALE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;FMT_LOCALE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\CSC305\labs\labs\lab03_camera;H:\CSC305\labs\build\_deps\atlas-src\include;H:\CSC305\labs\build\_deps\fmt-src\include;H:\CSC305\labs\build\_deps\magic_enum-src\include;H:\CSC305\labs\build\_deps\glm-src\glm\..;H:\CSC305\labs\build\_deps\glfw-src\include;H:\CSC305\labs\build\_deps\gl3w-build\include;H:\CSC305\labs\build\_deps\atlas-src\external\imgui;H:\CSC305\labs\build\_deps\tinyobjloader-src;H:\CSC305\labs\build\_deps\atlas-src\external\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\atlas-build\RelWithDebInfo\atlas.lib;..\..\_deps\atlas-build\RelWithDebInfo\atlas-gui.lib;..\..\_deps\atlas-build\RelWithDebInfo\atlas-glx.lib;..\..\_deps\glfw-build\src\RelWithDebInfo\glfw3.lib;..\..\_deps\gl3w-build\RelWithDebInfo\gl3w.lib;opengl32.lib;..\..\_deps\atlas-build\external\imgui\RelWithDebInfo\imgui.lib;..\..\_deps\atlas-build\RelWithDebInfo\atlas-hlr.lib;..\..\_deps\atlas-build\RelWithDebInfo\atlas-utils.lib;..\..\_deps\fmt-build\RelWithDebInfo\fmt.lib;..\..\_deps\tinyobjloader-build\RelWithDebInfo\tinyobjloader.lib;..\..\_deps\atlas-build\external\stb\RelWithDebInfo\stb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/CSC305/labs/build/labs/lab03_camera/RelWithDebInfo/lab03_camera.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/CSC305/labs/build/labs/lab03_camera/RelWithDebInfo/lab03_camera.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\labs\labs\lab03_camera\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/CSC305/labs/labs/lab03_camera/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/labs -BH:/CSC305/labs/build --check-stamp-file H:/CSC305/labs/build/labs/lab03_camera/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\CSC305\labs\build\labs\lab03_camera\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/CSC305/labs/labs/lab03_camera/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/labs -BH:/CSC305/labs/build --check-stamp-file H:/CSC305/labs/build/labs/lab03_camera/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\CSC305\labs\build\labs\lab03_camera\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/CSC305/labs/labs/lab03_camera/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/labs -BH:/CSC305/labs/build --check-stamp-file H:/CSC305/labs/build/labs/lab03_camera/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\CSC305\labs\build\labs\lab03_camera\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/CSC305/labs/labs/lab03_camera/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/labs -BH:/CSC305/labs/build --check-stamp-file H:/CSC305/labs/build/labs/lab03_camera/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\CSC305\labs\build\labs\lab03_camera\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="H:\CSC305\labs\labs\lab03_camera\main.cpp" />
+    <ClInclude Include="H:\CSC305\labs\labs\lab03_camera\lab.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:\CSC305\labs\build\ZERO_CHECK.vcxproj">
+      <Project>{86EEAA74-A1C6-3566-9EF4-B33968234B5A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\atlas-build\atlas.vcxproj">
+      <Project>{DC6EF9F5-F5B6-31B9-8315-B6978B04C28B}</Project>
+      <Name>atlas</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\atlas-build\atlas-glx.vcxproj">
+      <Project>{760876F2-D800-3EF6-89E2-0AFA334AA811}</Project>
+      <Name>atlas-glx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\atlas-build\atlas-gui.vcxproj">
+      <Project>{5583D7B6-47C1-381D-8B08-076A30A57028}</Project>
+      <Name>atlas-gui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\atlas-build\atlas-hlr.vcxproj">
+      <Project>{A48FF0C1-2C72-36CE-B32F-8C2647D74C5E}</Project>
+      <Name>atlas-hlr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\atlas-build\atlas-utils.vcxproj">
+      <Project>{29057F2B-8A4A-37F5-B4A0-1952BD6CDF2A}</Project>
+      <Name>atlas-utils</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\fmt-build\fmt.vcxproj">
+      <Project>{0ADA3EBE-E6F4-39A1-9DA6-F005A06595B1}</Project>
+      <Name>fmt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\gl3w-build\gl3w.vcxproj">
+      <Project>{E3D5E760-0103-3277-BD75-2C3864C39FF4}</Project>
+      <Name>gl3w</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\glfw-build\src\glfw.vcxproj">
+      <Project>{D9309620-476E-3964-9517-9673BB285413}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\atlas-build\external\imgui\imgui.vcxproj">
+      <Project>{93908A0C-849F-34BE-A832-42D2489702AD}</Project>
+      <Name>imgui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\atlas-build\external\stb\stb.vcxproj">
+      <Project>{3D39E400-AB6A-322D-9B6F-34482BB54B35}</Project>
+      <Name>stb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\CSC305\labs\build\_deps\tinyobjloader-build\tinyobjloader.vcxproj">
+      <Project>{BD83CE60-E7ED-3BDB-9679-A1D945CEE2C2}</Project>
+      <Name>tinyobjloader</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

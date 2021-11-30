@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/gl3w-populate"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/a890ceb6e71265d457952e15e3b45930/gl3w-populate.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/d198a62b832a2f4bdbe5ddd480545c47/gl3w-populate-complete.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/94a5aeb2b7eb0c2022a1e865372de382/gl3w-populate-install.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/94a5aeb2b7eb0c2022a1e865372de382/gl3w-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/94a5aeb2b7eb0c2022a1e865372de382/gl3w-populate-download.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/94a5aeb2b7eb0c2022a1e865372de382/gl3w-populate-update.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/94a5aeb2b7eb0c2022a1e865372de382/gl3w-populate-patch.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/94a5aeb2b7eb0c2022a1e865372de382/gl3w-populate-configure.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/94a5aeb2b7eb0c2022a1e865372de382/gl3w-populate-build.rule"
+		},
+		{
+			"file" : "H:/CSC305/a1/build/_deps/gl3w-subbuild/CMakeFiles/94a5aeb2b7eb0c2022a1e865372de382/gl3w-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gl3w-populate"
+		],
+		"name" : "gl3w-populate"
+	}
+}

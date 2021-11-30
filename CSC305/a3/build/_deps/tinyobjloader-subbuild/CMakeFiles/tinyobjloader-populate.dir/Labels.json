@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/tinyobjloader-populate"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/ac834db266824a4fc69e5d94ac79d347/tinyobjloader-populate.rule"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/e2a5155bedde866246192513538ada4d/tinyobjloader-populate-complete.rule"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/c34460be0b18a911abb52f106eecad4a/tinyobjloader-populate-install.rule"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/c34460be0b18a911abb52f106eecad4a/tinyobjloader-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/c34460be0b18a911abb52f106eecad4a/tinyobjloader-populate-download.rule"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/c34460be0b18a911abb52f106eecad4a/tinyobjloader-populate-update.rule"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/c34460be0b18a911abb52f106eecad4a/tinyobjloader-populate-patch.rule"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/c34460be0b18a911abb52f106eecad4a/tinyobjloader-populate-configure.rule"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/c34460be0b18a911abb52f106eecad4a/tinyobjloader-populate-build.rule"
+		},
+		{
+			"file" : "H:/CSC305/a3/build/_deps/tinyobjloader-subbuild/CMakeFiles/c34460be0b18a911abb52f106eecad4a/tinyobjloader-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tinyobjloader-populate"
+		],
+		"name" : "tinyobjloader-populate"
+	}
+}

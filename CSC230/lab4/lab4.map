@@ -1,0 +1,7 @@
+
+AVRASM ver. 2.1.42  H:\CSC230\lab4\lab4.asm Tue Oct 03 12:21:02 2017
+
+
+EQU  PORTL        0000010b
+EQU  DDRL         0000010a
+CSEG done         00000006

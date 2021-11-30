@@ -1,0 +1,5 @@
+﻿  Building Custom Rule H:/CSC305/a2/build/_deps/glfw-src/tests/CMakeLists.txt
+  triangle-vulkan.c
+  glad_vulkan.c
+  Generating Code...
+  triangle-vulkan.vcxproj -> H:\CSC305\a2\build\_deps\glfw-build\tests\Release\triangle-vulkan.exe

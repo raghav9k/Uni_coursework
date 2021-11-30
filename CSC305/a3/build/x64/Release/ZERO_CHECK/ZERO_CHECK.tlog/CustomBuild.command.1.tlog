@@ -1,0 +1,10 @@
+^H:\CSC305\A3\BUILD\CMAKEFILES\53A050BB4D43388C612B7FFE4A5C9B93\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/CSC305/a3 -BH:/CSC305/a3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/CSC305/a3/build/csc305_assignments.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

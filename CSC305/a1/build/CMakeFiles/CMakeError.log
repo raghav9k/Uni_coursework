@@ -1,0 +1,46 @@
+Performing C++ SOURCE FILE Test has_std_11_flag failed with the following output:
+Change Dir: H:/CSC305/a1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_7f5f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.2.37902+b5aaefc9f for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.22.27905 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D has_std_11_flag /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7f5f8.dir\Debug\\" /Fd"cmTC_7f5f8.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++11 H:\CSC305\a1\build\CMakeFiles\CMakeTmp\src.cxx
+  cl : Command line warning D9002 : ignoring unknown option '-std=c++11'
+  cmTC_7f5f8.vcxproj -> H:\CSC305\a1\build\CMakeFiles\CMakeTmp\Debug\cmTC_7f5f8.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_0x_flag failed with the following output:
+Change Dir: H:/CSC305/a1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_b64ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.2.37902+b5aaefc9f for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.22.27905 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D has_std_0x_flag /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b64ed.dir\Debug\\" /Fd"cmTC_b64ed.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++0x H:\CSC305\a1\build\CMakeFiles\CMakeTmp\src.cxx
+  cl : Command line warning D9002 : ignoring unknown option '-std=c++0x'
+  cmTC_b64ed.vcxproj -> H:\CSC305\a1\build\CMakeFiles\CMakeTmp\Debug\cmTC_b64ed.exe
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: H:/CSC305/a1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_ae132.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.2.37902+b5aaefc9f for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.22.27905 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae132.dir\Debug\\" /Fd"cmTC_ae132.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue H:\CSC305\a1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+H:\CSC305\a1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): error C1083:  Cannot open include file: 'pthread.h': No such file or directory [H:\CSC305\a1\build\CMakeFiles\CMakeTmp\cmTC_ae132.vcxproj]
+
+
+

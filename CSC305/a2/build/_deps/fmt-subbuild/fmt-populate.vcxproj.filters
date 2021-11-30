@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\26101b0d45fa42420d14690856fe097d\fmt-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\26101b0d45fa42420d14690856fe097d\fmt-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\26101b0d45fa42420d14690856fe097d\fmt-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\26101b0d45fa42420d14690856fe097d\fmt-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\26101b0d45fa42420d14690856fe097d\fmt-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\26101b0d45fa42420d14690856fe097d\fmt-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\26101b0d45fa42420d14690856fe097d\fmt-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\26101b0d45fa42420d14690856fe097d\fmt-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\2a53dedd047d077822cbb1bec19ebb93\fmt-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\197975f2826205ab3fe226103af2d281\fmt-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\CSC305\a2\build\_deps\fmt-subbuild\CMakeFiles\fmt-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{100B823A-DFDA-3D9F-87E5-4DC027CCD628}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

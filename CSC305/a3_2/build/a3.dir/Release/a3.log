@@ -1,0 +1,147 @@
+﻿  main.cpp
+H:\CSC305\a3_2\tdogl/Program.h(59,34): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(59,34): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(65,35): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(65,35): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(93,9): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(93,9): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(93,9): error C2535:  'void tdogl::Program::setAttrib(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib'
+H:\CSC305\a3_2\tdogl/Program.h(93,9): error C2535:  'void tdogl::Program::setUniform(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setAttrib(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setAttrib1v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib1v'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setAttrib2v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib2v'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setAttrib3v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib3v'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setAttrib4v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib4v'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setUniform(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setUniform1v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform1v'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setUniform2v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform2v'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setUniform3v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform3v'
+H:\CSC305\a3_2\tdogl/Program.h(94,9): error C2535:  'void tdogl::Program::setUniform4v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform4v'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setAttrib(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setAttrib1v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib1v'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setAttrib2v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib2v'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setAttrib3v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib3v'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setAttrib4v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib4v'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setUniform(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setUniform1v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform1v'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setUniform2v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform2v'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setUniform3v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform3v'
+H:\CSC305\a3_2\tdogl/Program.h(95,9): error C2535:  'void tdogl::Program::setUniform4v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform4v'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setAttrib(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setAttrib1v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib1v'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setAttrib2v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib2v'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setAttrib3v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib3v'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setAttrib4v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setAttrib4v'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setUniform(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setUniform1v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform1v'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setUniform2v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform2v'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setUniform3v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform3v'
+H:\CSC305\a3_2\tdogl/Program.h(96,9): error C2535:  'void tdogl::Program::setUniform4v(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform4v'
+H:\CSC305\a3_2\tdogl/Program.h(98,44): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(98,44): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(99,44): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(99,44): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(100,44): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(100,44): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(101,37): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(101,37): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(101,101): error C2535:  'void tdogl::Program::setUniform(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\tdogl/Program.h(102,37): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(102,37): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(102,101): error C2535:  'void tdogl::Program::setUniform(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\tdogl/Program.h(103,37): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(103,37): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(103,101): error C2535:  'void tdogl::Program::setUniform(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\tdogl/Program.h(104,37): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(104,37): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(104,71): error C2535:  'void tdogl::Program::setUniform(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\tdogl/Program.h(105,37): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+H:\CSC305\a3_2\tdogl/Program.h(105,37): error C2143:  syntax error: missing ',' before '*'
+H:\CSC305\a3_2\tdogl/Program.h(105,71): error C2535:  'void tdogl::Program::setUniform(const int)': member function already defined or declared
+H:\CSC305\a3_2\tdogl/Program.h(93): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\tdogl/Texture.h(41,51): error C2065:  'GL_CLAMP_TO_EDGE': undeclared identifier
+H:\CSC305\a3_2\main.cpp(108,81): error C2065:  'GL_VERTEX_SHADER': undeclared identifier
+H:\CSC305\a3_2\main.cpp(109,81): error C2065:  'GL_FRAGMENT_SHADER': undeclared identifier
+H:\CSC305\a3_2\main.cpp(130,5): error C3861:  'glGenBuffers': identifier not found
+H:\CSC305\a3_2\main.cpp(131,5): error C3861:  'glGenVertexArrays': identifier not found
+H:\CSC305\a3_2\main.cpp(134,5): error C3861:  'glBindVertexArray': identifier not found
+H:\CSC305\a3_2\main.cpp(137,18): error C2065:  'GL_ARRAY_BUFFER': undeclared identifier
+H:\CSC305\a3_2\main.cpp(137,5): error C3861:  'glBindBuffer': identifier not found
+H:\CSC305\a3_2\main.cpp(190,18): error C2065:  'GL_ARRAY_BUFFER': undeclared identifier
+H:\CSC305\a3_2\main.cpp(190,67): error C2065:  'GL_STATIC_DRAW': undeclared identifier
+H:\CSC305\a3_2\main.cpp(190,5): error C3861:  'glBufferData': identifier not found
+H:\CSC305\a3_2\main.cpp(193,66): error C2664:  'GLint tdogl::Program::attrib(const int) const': cannot convert argument 1 from 'const char [5]' to 'const int'
+H:\CSC305\a3_2\main.cpp(193,60): message :  There is no context in which this conversion is possible
+H:\CSC305\a3_2\main.cpp(193,5): error C3861:  'glEnableVertexAttribArray': identifier not found
+H:\CSC305\a3_2\main.cpp(194,62): error C2664:  'GLint tdogl::Program::attrib(const int) const': cannot convert argument 1 from 'const char [5]' to 'const int'
+H:\CSC305\a3_2\main.cpp(194,56): message :  There is no context in which this conversion is possible
+H:\CSC305\a3_2\main.cpp(194,5): error C3861:  'glVertexAttribPointer': identifier not found
+H:\CSC305\a3_2\main.cpp(197,74): error C2664:  'GLint tdogl::Program::attrib(const int) const': cannot convert argument 1 from 'const char [13]' to 'const int'
+H:\CSC305\a3_2\main.cpp(197,60): message :  There is no context in which this conversion is possible
+H:\CSC305\a3_2\main.cpp(197,5): error C3861:  'glEnableVertexAttribArray': identifier not found
+H:\CSC305\a3_2\main.cpp(198,70): error C2664:  'GLint tdogl::Program::attrib(const int) const': cannot convert argument 1 from 'const char [13]' to 'const int'
+H:\CSC305\a3_2\main.cpp(198,56): message :  There is no context in which this conversion is possible
+H:\CSC305\a3_2\main.cpp(198,5): error C3861:  'glVertexAttribPointer': identifier not found
+H:\CSC305\a3_2\main.cpp(201,72): error C2664:  'GLint tdogl::Program::attrib(const int) const': cannot convert argument 1 from 'const char [11]' to 'const int'
+H:\CSC305\a3_2\main.cpp(201,60): message :  There is no context in which this conversion is possible
+H:\CSC305\a3_2\main.cpp(201,5): error C3861:  'glEnableVertexAttribArray': identifier not found
+H:\CSC305\a3_2\main.cpp(202,68): error C2664:  'GLint tdogl::Program::attrib(const int) const': cannot convert argument 1 from 'const char [11]' to 'const int'
+H:\CSC305\a3_2\main.cpp(202,56): message :  There is no context in which this conversion is possible
+H:\CSC305\a3_2\main.cpp(202,5): error C3861:  'glVertexAttribPointer': identifier not found
+H:\CSC305\a3_2\main.cpp(205,5): error C3861:  'glBindVertexArray': identifier not found
+H:\CSC305\a3_2\main.cpp(259,51): error C2660:  'tdogl::Program::setUniform': function does not take 2 arguments
+H:\CSC305\a3_2\tdogl/Program.h(93,9): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\main.cpp(260,48): error C2660:  'tdogl::Program::setUniform': function does not take 2 arguments
+H:\CSC305\a3_2\tdogl/Program.h(93,9): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\main.cpp(261,33): error C2660:  'tdogl::Program::setUniform': function does not take 2 arguments
+H:\CSC305\a3_2\tdogl/Program.h(93,9): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\main.cpp(262,58): error C2660:  'tdogl::Program::setUniform': function does not take 2 arguments
+H:\CSC305\a3_2\tdogl/Program.h(93,9): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\main.cpp(263,64): error C2660:  'tdogl::Program::setUniform': function does not take 2 arguments
+H:\CSC305\a3_2\tdogl/Program.h(93,9): message :  see declaration of 'tdogl::Program::setUniform'
+H:\CSC305\a3_2\main.cpp(266,21): error C2065:  'GL_TEXTURE0': undeclared identifier
+H:\CSC305\a3_2\main.cpp(266,5): error C3861:  'glActiveTexture': identifier not found
+H:\CSC305\a3_2\main.cpp(270,5): error C3861:  'glBindVertexArray': identifier not found
+H:\CSC305\a3_2\main.cpp(274,5): error C3861:  'glBindVertexArray': identifier not found

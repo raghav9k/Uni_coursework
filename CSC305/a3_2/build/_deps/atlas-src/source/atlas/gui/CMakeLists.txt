@@ -1,0 +1,3 @@
+set(ATLAS_SOURCE_GUI_LIST
+    "${ATLAS_SOURCE_ROOT}/gui/GUI.cpp"
+    PARENT_SCOPE)

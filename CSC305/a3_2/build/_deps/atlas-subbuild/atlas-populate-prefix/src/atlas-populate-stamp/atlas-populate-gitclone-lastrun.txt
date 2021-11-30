@@ -1,0 +1,3 @@
+repository='https://github.com/marovira/atlas.git'
+module=''
+tag='origin'

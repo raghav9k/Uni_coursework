@@ -1,0 +1,9 @@
+The original list:
+The list has 4 items: 
+2 4 6 8 
+After inserting 5:
+The list has 5 items: 
+5 2 4 5 6 8 
+After inserting 1:
+The list has 6 items: 
+1 5 1 2 4 5 6 8 
